@@ -3,37 +3,33 @@ body {
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
     width: 100%;
     background: #ffff32;
     text-align: center;
 }
-
 #container {
     margin-left: 25%;
     width: 50%;
 }
-
+h2 {
+    text-align: center;
+}
 p, details, summary {
     cursor: default;
 }
-
 .outer-quote {
     background: #969696;
 }
-
 .inner-quote {
     margin-left: 2%;
     width: 98%;
     background: #c8c8c8;
 }
-
 .quote-content {
     margin-left: 2%;
     width: 96%;
 }
-
 .pfp {
     margin-right: 2%;
     border-radius: 100%;
