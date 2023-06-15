@@ -1,0 +1,1 @@
+document.onselectstart=()=>{return false;};

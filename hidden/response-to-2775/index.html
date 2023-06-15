@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Response to 2775Josh
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            [2023-6-15 23:49:45 PST]<br><br>Unsurprisingly, this post was rejected on the Vex Forum. The code is Uglified, and is still difficult to read after Beautifying because of the single-lettered variable names.
+        </header>
+        <br>
+        <div id="container">
+            <div class="outer-quote">
+                <div class="inner-quote">
+                    <div class="quote-content">
+                        <br>
+                        <img class="pfp" src="./pfp.png">
+                        <p>
+                            <strong>
+                                2775Josh
+                            </strong>
+                        </p>
+                        <p>
+                            The VSC extension is advertised as open source software. But it’s not
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="body-text">
+                The extension isn't exactly proprietary though. If you download the extension as a <code>.vsix</code> file from the <a href="https://marketplace.visualstudio.com/items?itemName=VEXRobotics.vexcode" target="_blank">VSCode Marketplace</a>, and then extract it, you will have <a href="./VEXRobotics.vexcode-0.4.2.zip" target="_blank" download>The Complete Source Code</a>. You can also view it from the VSCode Extensions directory if you have it installed.
+            </p>
+            <hr>
+            <details>
+                <summary>
+                    vexcom info
+                </summary>
+                The source also includes the <code>vexcom</code> utility, which is the underlying software that communicates with the brain (you can also find it in most versions of PROS). This opens a few doors because <code>vexcom</code> doesn't impose the same restrictions that VEXcode and the extension do (e.g. you can set the team number on the V5 brain to a long string of characters).
+                <br>
+                <img src="./vexcom.png">
+                <br>
+                I am only mentioning this because a few people, specifically those who want a PyCharm plugin, might find this information useful.
+            </details>
+            <hr>
+            <p class="body-text">
+                Hopefully VEX will maintain the extension on their <a href="https://github.com/VEX-Robotics/vex-vsc-extension" target="_blank">GitHub</a> in the future. That will make it a lot easier for the community to make suggestions and find/fix bugs.
+            </p>
+            <script src="./script.js">
+            </script>
+        </div>
+    </body>
+</html>
